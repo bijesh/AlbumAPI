@@ -17,12 +17,11 @@ namespace AlbumAPI.Controllers
             _searchService = searchService;
         }
 
-        [ActionName("user")]
-        [HttpGet]
-        public async Task<UserAlbumViewModel> Get(int userId)
+        [HttpGet("/album/user/{id}")]
+         public async Task<UserAlbumViewModel> Get(int id)
         {
             UserAlbumViewModel userAlbums= new UserAlbumViewModel();
-            userAlbums = await _searchService.GetUserAlbums(userId);
+            userAlbums = await _searchService.GetUserAlbums(id);
             
             return userAlbums;
         }
