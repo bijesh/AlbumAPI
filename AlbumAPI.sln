@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlbumAPI", "AlbumAPI\AlbumAPI.csproj", "{42428172-C919-43D4-B705-4A501E2C1DAE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlbumAPI.Test", "AlbumAPI.Test\AlbumAPI.Test.csproj", "{AE6C8124-028F-4BB8-8DDF-DC95B86529D0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{42428172-C919-43D4-B705-4A501E2C1DAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42428172-C919-43D4-B705-4A501E2C1DAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42428172-C919-43D4-B705-4A501E2C1DAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42428172-C919-43D4-B705-4A501E2C1DAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE6C8124-028F-4BB8-8DDF-DC95B86529D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE6C8124-028F-4BB8-8DDF-DC95B86529D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE6C8124-028F-4BB8-8DDF-DC95B86529D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE6C8124-028F-4BB8-8DDF-DC95B86529D0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F7569F27-4D5B-410A-8001-ED836C1F330C}
+	EndGlobalSection
+EndGlobal
